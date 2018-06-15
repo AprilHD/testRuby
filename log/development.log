@@ -1,0 +1,1241 @@
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "A clockwork orange"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "A clockwork orange"], ["description", "<p>A Clockwork Orange is a dystopian novel by Anthony Burgess published in 1962. Set in a near future English society featuring a subculture of extreme youth violence, the teenage protagonist, Alex, narrates his violent exploits and his experiences with state authorities intent on reforming him.[2] The book is partially written in a Russian-influenced argot called \"Nadsat\". According to Burgess it was a jeu d'esprit written in just three weeks\n      </p>"], ["image", "a_clock_work.jpg"], ["price", 36.0], ["created_at", "2017-12-01 19:52:56.102642"], ["updated_at", "2017-12-01 19:52:56.102642"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Happy lemon"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Happy lemon"], ["description", "<p>\n        When you laugh, you experience feelings of harmony, happiness and balance. Laughter allows you to get in touch with yourself, and with life itself. Of course, it's fun to laugh, but laughter is much more than just fun - laughter is a deep personal release that can positively transform tension, stress and pain. In his book, Happy Lemons - How Happiness Breeds Success, Thomas Flindt takes us on an interesting journey, examining the roots of laughter and diving into its various purposes, why we laugh, and its benefits at work. The book dives into a world of laughter, including the power of now, and the therapeutic and physical effects of laughter. The book includes fun and simple exercises that help you incorporate strong habits to gain more happiness in your everyday life. Not only will Happy Lemons leave a contagious positive effect on you, it also provides tips and practical tools on how to incorporate great positive habits at work, how to increase job satisfaction, and how to incorporate more joy in your everyday life. Breathing and laughing are your most important energy resources. It doesn't make you feel alive, it keeps you alive.\n      </p>"], ["image", "happy_lemon.jpg"], ["price", 49.95], ["created_at", "2017-12-01 19:52:56.108565"], ["updated_at", "2017-12-01 19:52:56.108565"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Maria travel notebook"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Maria travel notebook"], ["description", "<p>MARIA GRAHAM'S JOURNAL OF A VOYAGE TO BRAZIL is a scholarly edition of nineteenth century travel writer Graham's travel narrative first published in 1824. One of only a few women travelers to have written about her experiences in South America in the early nineteenth century, Graham provides an invaluable first-hand account of Brazil and its transformation from a Portuguese colony to an independent nation. She offers not only observations about social customs, politics, and the role of the British in South America but also insights into Brazilian slavery at a time of rising abolitionist activism. This edition is unique in incorporating Graham's own unpublished corrections to her first edition and in bringing together supplementary materials to contextualize the journal, including contemporary reviews of her narrative, early nineteenth century maps of Brazil, and Graham's unpublished autobiographical and historical sketch, \"Life of Don Pedro.\" The edition also provides an editors' introduction situating Graham's narrative in relation to the few extant travel narratives about Brazil-all written by men-as well as within the socio-historical and cultural landscape of her time, with particular focus on abolitionist discourses and the process of Brazilian independence. \n      </p>"], ["image", "marias.jpg"], ["price", 34.95], ["created_at", "2017-12-01 19:52:56.111527"], ["updated_at", "2017-12-01 19:52:56.111527"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "pete the cat"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "pete the cat"], ["description", "<p> DescriptionDetails\nDon't miss the first and bestselling book in the beloved Pete the Cat series!\nPete the Cat goes walking down the street wearing his brand-new white shoes. Along the way, his shoes change from white to red to blue to brown to WET as he steps in piles of strawberries, blueberries, and other big messes!\nBut no matter what color his shoes are, Pete keeps movin' and groovin' and singing his song...because it's all good. Pete the Cat: I Love My White Shoes asks the reader questions about the colors of different foods and objects—kids love to interact with the story.\nThe fun never stops—download the free groovin’ song.\n      </p>"], ["image", "pete_the_cat.jpg"], ["price", 49.99], ["created_at", "2017-12-01 19:52:56.113805"], ["updated_at", "2017-12-01 19:52:56.113805"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 19:55:10.382814"], ["updated_at", "2017-12-01 19:55:10.382814"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 19:55:10.386350"], ["updated_at", "2017-12-01 19:55:10.386350"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 19:55:10.389520"], ["updated_at", "2017-12-01 19:55:10.389520"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 19:55:10.392268"], ["updated_at", "2017-12-01 19:55:10.392268"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 19:55:10.396129"], ["updated_at", "2017-12-01 19:55:10.396129"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 19:56:14.225390"], ["updated_at", "2017-12-01 19:56:14.225390"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 19:56:14.230941"], ["updated_at", "2017-12-01 19:56:14.230941"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 19:56:14.233479"], ["updated_at", "2017-12-01 19:56:14.233479"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 19:56:14.237708"], ["updated_at", "2017-12-01 19:56:14.237708"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 19:56:14.240888"], ["updated_at", "2017-12-01 19:56:14.240888"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 19:57:03.237213"], ["updated_at", "2017-12-01 19:57:03.237213"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 19:57:03.240542"], ["updated_at", "2017-12-01 19:57:03.240542"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 19:57:03.242814"], ["updated_at", "2017-12-01 19:57:03.242814"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 19:57:03.245238"], ["updated_at", "2017-12-01 19:57:03.245238"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 19:57:03.247481"], ["updated_at", "2017-12-01 19:57:03.247481"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 19:58:04.937484"], ["updated_at", "2017-12-01 19:58:04.937484"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 19:58:04.941342"], ["updated_at", "2017-12-01 19:58:04.941342"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 19:58:04.944318"], ["updated_at", "2017-12-01 19:58:04.944318"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 19:58:04.947484"], ["updated_at", "2017-12-01 19:58:04.947484"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 19:58:04.950844"], ["updated_at", "2017-12-01 19:58:04.950844"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:58:26 -0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-01 19:58:26.681406"], ["updated_at", "2017-12-01 19:58:26.681406"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (900.0ms)
+  [1m[36mLineitem Load (0.6ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (25.1ms) [cache miss]
+Completed 200 OK in 1088ms (Views: 1048.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:58:34 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (8.7ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (3.8ms) [cache miss]
+Completed 200 OK in 63ms (Views: 58.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:37 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"78KR+eAyWRi9xKUVLaPweZ6pBfwW5vcUNDql8BO9HhvB5kZwZFdKYaSVUJooCJSQHva309u/tSEdqUSkU6p0ZA==", "product_id"=>"31"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 26], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "lineitems" ("product_id", "cart_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["product_id", 31], ["cart_id", 26], ["created_at", "2017-12-01 19:58:37.843336"], ["updated_at", "2017-12-01 19:58:37.843336"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (4.0ms) [cache miss]
+  Rendered lineitems/create.js.erb (7.4ms)
+Completed 200 OK in 39ms (Views: 16.4ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:38 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"78KR+eAyWRi9xKUVLaPweZ6pBfwW5vcUNDql8BO9HhvB5kZwZFdKYaSVUJooCJSQHva309u/tSEdqUSkU6p0ZA==", "product_id"=>"31"}
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 26], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "lineitems" SET "quantity" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["quantity", 2], ["updated_at", "2017-12-01 19:58:38.348682"], ["id", 46]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.9ms) [cache miss]
+  Rendered lineitems/create.js.erb (6.4ms)
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:38 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"78KR+eAyWRi9xKUVLaPweZ6pBfwW5vcUNDql8BO9HhvB5kZwZFdKYaSVUJooCJSQHva309u/tSEdqUSkU6p0ZA==", "product_id"=>"31"}
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 26], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lineitems" SET "quantity" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["quantity", 3], ["updated_at", "2017-12-01 19:58:38.871679"], ["id", 46]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.7ms) [cache miss]
+  Rendered lineitems/create.js.erb (5.2ms)
+Completed 200 OK in 26ms (Views: 12.4ms | ActiveRecord: 3.5ms)
+
+
+Started DELETE "/carts/26" for 127.0.0.1 at 2017-12-01 11:58:46 -0800
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"E2o8X2OzyIrD6QxDtVml2+E5XTVVstD980uzVYSuBkWemZFkFBZ43ILHVRVTn3Rf1KllO5gDKZuDck7laOP3aw==", "id"=>"26"}
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.4ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "lineitems" WHERE "lineitems"."id" = ?[0m  [["id", 46]]
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 26]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:58:46 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-01 19:58:46.646310"], ["updated_at", "2017-12-01 19:58:46.646310"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (10.9ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  Rendered carts/_cart.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 77ms (Views: 69.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:49 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"USevrP7Jcoz6sgCQcOFdIzMdMa/OWS4OfxgA+/2R/mLz4LERVEtiQhsL84YP+qmn7HTbIxrxIFGY7EKgxpGo5g==", "product_id"=>"31"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 27], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "lineitems" ("product_id", "cart_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["product_id", 31], ["cart_id", 27], ["created_at", "2017-12-01 19:58:49.376549"], ["updated_at", "2017-12-01 19:58:49.376549"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  Rendered carts/_cart.html.erb (2.0ms) [cache miss]
+  Rendered lineitems/create.js.erb (4.7ms)
+Completed 200 OK in 24ms (Views: 12.7ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:49 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"USevrP7Jcoz6sgCQcOFdIzMdMa/OWS4OfxgA+/2R/mLz4LERVEtiQhsL84YP+qmn7HTbIxrxIFGY7EKgxpGo5g==", "product_id"=>"31"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 27], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lineitems" SET "quantity" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["quantity", 2], ["updated_at", "2017-12-01 19:58:49.745794"], ["id", 47]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.7ms) [cache miss]
+  Rendered lineitems/create.js.erb (5.2ms)
+Completed 200 OK in 23ms (Views: 11.6ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/lineitems?product_id=31" for 127.0.0.1 at 2017-12-01 11:58:50 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"USevrP7Jcoz6sgCQcOFdIzMdMa/OWS4OfxgA+/2R/mLz4LERVEtiQhsL84YP+qmn7HTbIxrxIFGY7EKgxpGo5g==", "product_id"=>"31"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 27], ["product_id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "lineitems" SET "quantity" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["quantity", 3], ["updated_at", "2017-12-01 19:58:50.226587"], ["id", 47]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.6ms) [cache miss]
+  Rendered lineitems/create.js.erb (5.1ms)
+Completed 200 OK in 24ms (Views: 12.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2017-12-01 11:58:52 -0800
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mLineitem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."cart_id" = ? LIMIT ?[0m  [["cart_id", 27], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (14.3ms) [cache miss]
+  Rendered orders/new.html.erb within layouts/application (17.0ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 74ms (Views: 58.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2017-12-01 11:58:59 -0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xaDy1ruGclCXoqpf5amV1zHFTL8RA/wRDc+tQGiov55nZ+xrEQRinnYbWUmasmFT7qymM8Wr8k7qO+8bU6jpGg==", "order"=>{"name"=>"Xiaoling Tang", "address"=>"1228 cedar st", "email"=>"aquatangtang@gmail.com", "paytype"=>"Check"}, "commit"=>"Place Order"}
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.3ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "lineitems" SET "cart_id" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["cart_id", nil], ["updated_at", "2017-12-01 19:58:59.615638"], ["id", 47]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "orders" ("name", "address", "email", "paytype", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Xiaoling Tang"], ["address", "1228 cedar st"], ["email", "aquatangtang@gmail.com"], ["paytype", "Check"], ["created_at", "2017-12-01 19:58:59.620169"], ["updated_at", "2017-12-01 19:58:59.620169"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 27]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:58:59 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-01 19:58:59.639150"], ["updated_at", "2017-12-01 19:58:59.639150"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (8.8ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (1.8ms) [cache miss]
+Completed 200 OK in 65ms (Views: 56.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-12-01 11:59:02 -0800
+Processing by AccessController#new as HTML
+  [1m[36mCart Load (0.9ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering access/new.html.erb within layouts/application
+  Rendered access/new.html.erb within layouts/application (2.4ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 60ms (Views: 54.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-12-01 11:59:10 -0800
+Processing by AccessController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+vCNVJiAF/6vjGXypBQ1A11/s+1UWsoYUeYRqYjdwZ/k1P4sbPGr3Y6B/AYrkLgV98gXKE2Pf8/Zn2jPWLd36g==", "name"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "admin"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 70ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-01 11:59:10 -0800
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (0.4ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 43ms (Views: 38.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-01 11:59:13 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.2ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.1ms) [cache miss]
+Completed 200 OK in 68ms (Views: 61.8ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/orders/3" for 127.0.0.1 at 2017-12-01 11:59:18 -0800
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yUEAfle/cgq0lHVEIfvfTkOT7fI8bJrjPe5yuj0XkcNrhh7D/T1ixFUthlJe4CvKnPoHfujElLzaGjDhBhfHRw==", "id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 9ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-01 11:59:18 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-12-01 11:59:21 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (4.5ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 75ms (Views: 69.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-12-01 11:59:23 -0800
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (9.7ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.6ms) [cache miss]
+Completed 200 OK in 64ms (Views: 59.7ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-12-01 11:59:28 -0800
+Processing by AccessController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kfrd97rkLOb8pnCj4dX+GgPDTdSJJ7IHeKG0OGHEpVozPcNKEGY8KB0fg7Wezgqe3KqnWF2PvFifVfZjWsTz3g=="}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:59:28 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (9.2ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (1.8ms) [cache miss]
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 11:59:34 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (15.7ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 60ms (Views: 56.3ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 20:22:55.136397"], ["updated_at", "2017-12-01 20:22:55.136397"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 20:22:55.141020"], ["updated_at", "2017-12-01 20:22:55.141020"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 20:22:55.144299"], ["updated_at", "2017-12-01 20:22:55.144299"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 20:22:55.147861"], ["updated_at", "2017-12-01 20:22:55.147861"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 20:22:55.151706"], ["updated_at", "2017-12-01 20:22:55.151706"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-01 12:23:25 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-01 20:23:26.055255"], ["updated_at", "2017-12-01 20:23:26.055255"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (825.1ms)
+  [1m[36mLineitem Load (0.6ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (20.6ms)
+Completed 200 OK in 1141ms (Views: 966.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 12:23:29 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (12.5ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (2.4ms)
+Completed 200 OK in 66ms (Views: 62.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/question" for 127.0.0.1 at 2017-12-01 12:23:32 -0800
+Processing by QuestionController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering question/index.html.erb within layouts/application
+  Rendered question/index.html.erb within layouts/application (0.4ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (2.0ms)
+Completed 200 OK in 68ms (Views: 61.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-01 12:23:35 -0800
+Processing by NewsController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering news/index.html.erb within layouts/application
+  Rendered news/index.html.erb within layouts/application (0.5ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.8ms)
+Completed 200 OK in 66ms (Views: 62.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-12-01 12:23:44 -0800
+Processing by ContactController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (0.5ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.8ms)
+Completed 200 OK in 61ms (Views: 55.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-12-01 12:23:46 -0800
+Processing by SearchController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered search/index.html.erb within layouts/application (19.8ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.7ms)
+Completed 200 OK in 87ms (Views: 82.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 12:23:52 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (15.5ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.6ms)
+Completed 200 OK in 89ms (Views: 84.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-12-01 12:23:56 -0800
+Processing by SearchController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered search/index.html.erb within layouts/application (16.9ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.9ms)
+Completed 200 OK in 82ms (Views: 77.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-12-01 12:24:01 -0800
+Processing by AccessController#new as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering access/new.html.erb within layouts/application
+  Rendered access/new.html.erb within layouts/application (1.9ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.8ms)
+Completed 200 OK in 59ms (Views: 50.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-12-01 12:24:12 -0800
+Processing by AccessController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oGPNDNNOOu5XMb8AL+f+Z38xbXflUfw8Mr8X9Jct/TC+R750Jz+GzXY8JvSgY3Nx1YbJsvyESeu6xm6SR0dLRQ==", "name"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "admin"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 68ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-01 12:24:12 -0800
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (0.5ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.9ms)
+Completed 200 OK in 47ms (Views: 37.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-01 12:24:15 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.7ms)
+Completed 200 OK in 61ms (Views: 54.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-12-01 12:24:17 -0800
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (9.4ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (2.1ms)
+Completed 200 OK in 67ms (Views: 58.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-12-01 12:24:22 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.7ms)
+Completed 200 OK in 62ms (Views: 55.0ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-12-01 12:24:24 -0800
+Processing by AccessController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VSfyyZ0JWSkE1zo/GjlIUv5xeCtZvMdeXRJ6oY+rrRz34Ox0N4tJ5+VuySllIrzWIRiSp40UyQG65jj6tKv7mA=="}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-01 12:24:24 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (10.5ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 26]]
+  Rendered carts/_cart.html.erb (1.6ms)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 20:24:36.436098"], ["updated_at", "2017-12-01 20:24:36.436098"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 20:24:36.440848"], ["updated_at", "2017-12-01 20:24:36.440848"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 20:24:36.444990"], ["updated_at", "2017-12-01 20:24:36.444990"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 20:24:36.450057"], ["updated_at", "2017-12-01 20:24:36.450057"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 20:24:36.453554"], ["updated_at", "2017-12-01 20:24:36.453554"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 20:25:06.974734"], ["updated_at", "2017-12-01 20:25:06.974734"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 20:25:06.978803"], ["updated_at", "2017-12-01 20:25:06.978803"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 20:25:06.981960"], ["updated_at", "2017-12-01 20:25:06.981960"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 20:25:06.986276"], ["updated_at", "2017-12-01 20:25:06.986276"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 20:25:06.991232"], ["updated_at", "2017-12-01 20:25:06.991232"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-01 12:53:12 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.7ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-01 20:53:13.256377"], ["updated_at", "2017-12-01 20:53:13.256377"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (409.5ms)
+  [1m[36mLineitem Load (0.5ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  Rendered carts/_cart.html.erb (22.8ms)
+Completed 200 OK in 877ms (Views: 563.1ms | ActiveRecord: 7.9ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 20:53:34.136008"], ["updated_at", "2017-12-01 20:53:34.136008"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 20:53:34.140908"], ["updated_at", "2017-12-01 20:53:34.140908"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 20:53:34.144704"], ["updated_at", "2017-12-01 20:53:34.144704"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 20:53:34.149885"], ["updated_at", "2017-12-01 20:53:34.149885"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 20:53:34.153533"], ["updated_at", "2017-12-01 20:53:34.153533"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-01 21:20:11.349007"], ["updated_at", "2017-12-01 21:20:11.349007"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-01 21:20:11.354475"], ["updated_at", "2017-12-01 21:20:11.354475"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-01 21:20:11.359351"], ["updated_at", "2017-12-01 21:20:11.359351"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-01 21:20:11.363263"], ["updated_at", "2017-12-01 21:20:11.363263"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-01 21:20:11.367739"], ["updated_at", "2017-12-01 21:20:11.367739"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-01 13:20:28 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (328.1ms)
+  [1m[36mLineitem Load (0.4ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 27]]
+  Rendered carts/_cart.html.erb (27.6ms)
+Completed 200 OK in 654ms (Views: 488.9ms | ActiveRecord: 3.2ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CombineItemsInCart (20171130025313)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT SUM("lineitems"."quantity") AS sum_quantity, "lineitems"."product_id" AS lineitems_product_id FROM "lineitems" WHERE "lineitems"."cart_id" = ? GROUP BY "lineitems"."product_id"[0m  [["cart_id", 24]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT SUM("lineitems"."quantity") AS sum_quantity, "lineitems"."product_id" AS lineitems_product_id FROM "lineitems" WHERE "lineitems"."cart_id" = ? GROUP BY "lineitems"."product_id"[0m  [["cart_id", 25]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT SUM("lineitems"."quantity") AS sum_quantity, "lineitems"."product_id" AS lineitems_product_id FROM "lineitems" WHERE "lineitems"."cart_id" = ? GROUP BY "lineitems"."product_id"[0m  [["cart_id", 26]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT SUM("lineitems"."quantity") AS sum_quantity, "lineitems"."product_id" AS lineitems_product_id FROM "lineitems" WHERE "lineitems"."cart_id" = ? GROUP BY "lineitems"."product_id"[0m  [["cart_id", 27]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171130025313"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddQuantityToLineitems (20171130035359)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "lineitems" ADD "quantity" integer DEFAULT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."product_id" = ? LIMIT ?[0m  [["product_id", 50], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 50]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."product_id" = ? LIMIT ?[0m  [["product_id", 51], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 51]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."product_id" = ? LIMIT ?[0m  [["product_id", 52], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 52]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."product_id" = ? LIMIT ?[0m  [["product_id", 53], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 53]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."product_id" = ? LIMIT ?[0m  [["product_id", 54], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 54]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-04 01:21:09.299068"], ["updated_at", "2017-12-04 01:21:09.299068"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-04 01:21:09.302258"], ["updated_at", "2017-12-04 01:21:09.302258"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-04 01:21:09.305756"], ["updated_at", "2017-12-04 01:21:09.305756"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-04 01:21:09.308888"], ["updated_at", "2017-12-04 01:21:09.308888"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-04 01:21:09.312525"], ["updated_at", "2017-12-04 01:21:09.312525"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-03 17:21:25 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.6ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-04 01:21:25.618744"], ["updated_at", "2017-12-04 01:21:25.618744"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (327.3ms)
+  [1m[36mLineitem Load (0.5ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (21.0ms)
+Completed 200 OK in 726ms (Views: 467.0ms | ActiveRecord: 7.1ms)
+
+
+Started POST "/lineitems?product_id=59" for 127.0.0.1 at 2017-12-03 17:21:29 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"Z/ABv2OYDGe7+Sc1nX39fe7MF4Ew0S2Gmnv4CHRRTjbFNx8CyRocqVpA1CPiZgn5MaX9DeR5I9l9j7pTT1EYsg==", "product_id"=>"59"}
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 59], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 28], ["product_id", 59], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 59], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "lineitems" ("product_id", "cart_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["product_id", 59], ["cart_id", 28], ["created_at", "2017-12-04 01:21:29.638250"], ["updated_at", "2017-12-04 01:21:29.638250"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  Rendered carts/_cart.html.erb (2.5ms)
+  Rendered lineitems/create.js.erb (5.7ms)
+Completed 200 OK in 33ms (Views: 12.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2017-12-03 17:21:31 -0800
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mLineitem Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."cart_id" = ? LIMIT ?[0m  [["cart_id", 28], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (9.8ms)
+  Rendered orders/new.html.erb within layouts/application (12.6ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 59], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (4.2ms)
+Completed 200 OK in 71ms (Views: 54.3ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2017-12-03 17:21:38 -0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TO/f/BrYY9NjEEUmOEDicCtdTiB6hVy2maYeF0miZLfuKMFBsFpzHYKptjBHWxb09DSkrK4tUul+UlxMcqIyMw==", "order"=>{"name"=>"Xiaoling Tang", "address"=>"1228 cedar st", "email"=>"aquatangtang@gmail.com", "paytype"=>"Check"}, "commit"=>"Place Order"}
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.4ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 59], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "lineitems" SET "cart_id" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["cart_id", nil], ["updated_at", "2017-12-04 01:21:38.397212"], ["id", 46]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("name", "address", "email", "paytype", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Xiaoling Tang"], ["address", "1228 cedar st"], ["email", "aquatangtang@gmail.com"], ["paytype", "Check"], ["created_at", "2017-12-04 01:21:38.401089"], ["updated_at", "2017-12-04 01:21:38.401089"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 28]]
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 28]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 17:21:38 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-04 01:21:38.414059"], ["updated_at", "2017-12-04 01:21:38.414059"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (9.8ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (2.4ms)
+Completed 200 OK in 67ms (Views: 61.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 17:22:14 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (7.6ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (30.7ms)
+Completed 200 OK in 435ms (Views: 256.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 17:22:20 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (37.2ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (3.7ms)
+Completed 200 OK in 118ms (Views: 103.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 17:22:28 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.1ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (2.7ms)
+Completed 200 OK in 95ms (Views: 86.7ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/orders/3" for 127.0.0.1 at 2017-12-03 17:22:32 -0800
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RnjIPVl7RT/87LUDs66LkVi4WdK1i0otO9ap4UZyjSPkv9aA8/lV8R1VRhXMtX8Vh9GzXmEjRHLcIuu6fXLbpw==", "id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 10ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 17:22:32 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.3ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (2.3ms)
+Completed 200 OK in 51ms (Views: 47.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 17:22:35 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (20.0ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (2.1ms)
+Completed 200 OK in 87ms (Views: 83.1ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.5ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 55]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 55]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 56]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 56]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 57]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 57]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 58]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 58]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 59]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "lineitems" WHERE "lineitems"."id" = ?[0m  [["id", 46]]
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 59]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-04 04:13:37.325080"], ["updated_at", "2017-12-04 04:13:37.325080"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-04 04:13:37.329743"], ["updated_at", "2017-12-04 04:13:37.329743"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-04 04:13:37.332979"], ["updated_at", "2017-12-04 04:13:37.332979"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-04 04:13:37.337701"], ["updated_at", "2017-12-04 04:13:37.337701"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-04 04:13:37.341555"], ["updated_at", "2017-12-04 04:13:37.341555"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:13:53 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (385.6ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (16.2ms)
+Completed 200 OK in 803ms (Views: 630.5ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/lineitems?product_id=64" for 127.0.0.1 at 2017-12-03 20:14:00 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"uQdCJ1Amxr7IgGgY2gCu8AEBvbIl3p8Xlt57prcnax0bwFya+qTWcCk5mw6lG1p03mhXPvF2kUhxKjn9jCc9mQ==", "product_id"=>"64"}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 29], ["product_id", 64], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "lineitems" ("product_id", "cart_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["product_id", 64], ["cart_id", 29], ["created_at", "2017-12-04 04:14:00.467588"], ["updated_at", "2017-12-04 04:14:00.467588"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  Rendered carts/_cart.html.erb (2.2ms)
+  Rendered lineitems/create.js.erb (5.4ms)
+Completed 200 OK in 34ms (Views: 13.3ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/lineitems?product_id=64" for 127.0.0.1 at 2017-12-03 20:14:01 -0800
+Processing by LineitemsController#create as JS
+  Parameters: {"authenticity_token"=>"uQdCJ1Amxr7IgGgY2gCu8AEBvbIl3p8Xlt57prcnax0bwFya+qTWcCk5mw6lG1p03mhXPvF2kUhxKjn9jCc9mQ==", "product_id"=>"64"}
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT  "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ? AND "lineitems"."product_id" = ? LIMIT ?[0m  [["cart_id", 29], ["product_id", 64], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lineitems" SET "quantity" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["quantity", 2], ["updated_at", "2017-12-04 04:14:01.396918"], ["id", 47]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lineitems/create.js.erb
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.7ms)
+  Rendered lineitems/create.js.erb (5.7ms)
+Completed 200 OK in 23ms (Views: 12.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2017-12-03 20:14:03 -0800
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mLineitem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "lineitems" WHERE "lineitems"."cart_id" = ? LIMIT ?[0m  [["cart_id", 29], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (25.4ms)
+  Rendered orders/new.html.erb within layouts/application (29.6ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (4.3ms)
+Completed 200 OK in 80ms (Views: 66.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2017-12-03 20:14:10 -0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DZLFlzRcA3mptx+1GyBAEOBR+4YrlpHiPGiG7q+EEC6vVdsqnt4Tt0gO7KNkO7SUPzgRCv8+n73bnMS1lIRGqg==", "order"=>{"name"=>"Xiaoling Tang", "address"=>"1228 cedar st", "email"=>"aquatangtang@gmail.com", "paytype"=>"Check"}, "commit"=>"Place Order"}
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mLineitem Load (0.3ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 29]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 64], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lineitems" SET "cart_id" = ?, "updated_at" = ? WHERE "lineitems"."id" = ?[0m  [["cart_id", nil], ["updated_at", "2017-12-04 04:14:10.627647"], ["id", 47]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("name", "address", "email", "paytype", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Xiaoling Tang"], ["address", "1228 cedar st"], ["email", "aquatangtang@gmail.com"], ["paytype", "Check"], ["created_at", "2017-12-04 04:14:10.630688"], ["updated_at", "2017-12-04 04:14:10.630688"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 29]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:14:10 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-04 04:14:10.642889"], ["updated_at", "2017-12-04 04:14:10.642889"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (12.0ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (2.5ms)
+Completed 200 OK in 67ms (Views: 61.8ms | ActiveRecord: 1.6ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 60]]
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 60]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 61]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 61]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 62]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 62]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 63]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 63]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."product_id" = ?[0m  [["product_id", 64]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "lineitems" WHERE "lineitems"."id" = ?[0m  [["id", 47]]
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 64]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Siamese"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Siamese"], ["description", "<p>An ancient breed, the Siamese is considered the quintessential people cat because she loves being with her human companions. The sleek, striking Siamese has deep blue almond-shaped eyes that radiate intelligence and emotion. Affectionately known as Meezers, this breed is sociable, entertaining and playful. The Siamese is tolerant of children 6 and older and enjoys other cats but may not get along with dogs. The Siamese breed was used to create the Colorpoint Shorthair, which is identical to the Siamese except for her distinctive, unique colors.\n                </p>"], ["image", "siamese.jpg"], ["price", 400.0], ["created_at", "2017-12-04 04:14:19.546236"], ["updated_at", "2017-12-04 04:14:19.546236"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Scottish Fold"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Scottish Fold"], ["description", "<p> With her uniquely folded ears, round face and wide eyes, the Scottish Fold is described as looking like a pixie, an owl or a teddy bear. A mellow, loving breed, this cat adapts easily to new environments and enjoys adults, children and other pets. The Scottish Fold usually bonds to one person, following you from room to room like a loyal puppy. This playful, intelligent breed has two coat varieties, longhair and shorthair.\n                </p>"], ["image", "scottishFold.jpg"], ["price", 500.0], ["created_at", "2017-12-04 04:14:19.550805"], ["updated_at", "2017-12-04 04:14:19.550805"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "British Shorthair"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "British Shorthair"], ["description", "<p> The British Shorthair, also called the English Cat or simply the “Brit,” is the national cat of the British Isles. This is a compact, muscular and powerful breed that should be \"cobby\" or chunky in appearance. The British Shorthair has a broad chest, short strong legs and large rounded paws. Its tail is thick at the base, round at the tip and plush but not fluffy. The males are almost always larger than the females; this size difference is more easily recognized in British Shorthairs than in most other domestic breeds. Unlike females, mature males tend to develop prominent chubby cheeks, or jowls, which is another distinguishing gender-based feature.\n                </p>"], ["image", "britishShorthair.jpg"], ["price", 800.0], ["created_at", "2017-12-04 04:14:19.555286"], ["updated_at", "2017-12-04 04:14:19.555286"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Turkish Angora"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Turkish Angora"], ["description", "<p> The Turkish Angora, originally known simply as the Angora, has been called the ballerina of the cat fancy. These gorgeous, graceful cats are said to “dance into your life with their fine-boned elegance draped in a gossamer silk coat in a variety of colors. The traditional Turkish Angora is a snowy-white feline with a shimmery, medium-length outer coat, absolutely no undercoat and a refined body structure. They come in a range of other colors, including black, blue, cream, red, brown, silver and lilac. They come in various patterns as well, including tabby, tabby-white, tortie and smoke. The fur on the underbelly of the Turkish Angora tends to be slightly wavy, but the rest of its coat is straight.\n                </p>"], ["image", "turkishAngora.jpg"], ["price", 600.0], ["created_at", "2017-12-04 04:14:19.559362"], ["updated_at", "2017-12-04 04:14:19.559362"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Abyssinian"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Abyssinian"], ["description", "<p> The Abyssinian is thought by some to be one of the very oldest of all breeds of domestic cats. Abyssinians resemble the sculptural and painted representations of ancient Egyptian cats – they are medium in size, muscular yet elegant, with long, well-arched necks, large alert ears, long legs and exotic, almond-shaped eyes. They come in a variety of color variations, including lavender, blue, chocolate, black silver, fawn, sorrel, ruddy and sorrel silver. A unique characteristic of the Abyssinian is the banding, or “ticking,” on individual hairs. There typically are three or four bands of color on each hair. The Abyssinian’s coat is soft, silky and lustrous, with a full undercoat. The tail is broad at the base, tapering to a point which is the color of the darkest ticking of the coat.\n                </p>"], ["image", "abyssinian.jpg"], ["price", 1000.0], ["created_at", "2017-12-04 04:14:19.564021"], ["updated_at", "2017-12-04 04:14:19.564021"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:14:35 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (203.0ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (21.0ms)
+Completed 200 OK in 460ms (Views: 302.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 20:14:39 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (9.5ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (2.5ms)
+Completed 200 OK in 84ms (Views: 54.3ms | ActiveRecord: 2.5ms)
+
+
+Started DELETE "/orders/4" for 127.0.0.1 at 2017-12-03 20:14:47 -0800
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2G9yrA4gRVFt/EIpC6mNp+7IkYLp6PS3NwZiR/E+YP16qGwRpKJVn4xFsT90snkjMaF7Dj1A+ujQ8iAcyj42eQ==", "id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 20:14:47 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (2.5ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2017-12-03 20:15:04 -0800
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (1.6ms)
+Completed 200 OK in 42ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:15:08 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (11.7ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (1.8ms)
+Completed 200 OK in 71ms (Views: 65.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-12-03 20:15:11 -0800
+Processing by AccessController#destroy as HTML
+  Parameters: {"authenticity_token"=>"duffjeA/jMC1XVKcdfIzqChIOCuffzAzyQd/MOu6OzfUIMEwSr2cDlTkoYoK6ccs9yHSp0vXPmwu8z1r0Lptsw=="}
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:15:11 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (6.9ms)
+  [1m[36mLineitem Load (0.2ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (2.2ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-03 20:15:13 -0800
+Processing by ShopperController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering shopper/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."name" ASC[0m
+  Rendered shopper/index.html.erb within layouts/application (8.8ms)
+  [1m[36mLineitem Load (0.1ms)[0m  [1m[34mSELECT "lineitems".* FROM "lineitems" WHERE "lineitems"."cart_id" = ?[0m  [["cart_id", 30]]
+  Rendered carts/_cart.html.erb (1.9ms)
+Completed 200 OK in 56ms (Views: 51.1ms | ActiveRecord: 0.5ms)
+
+
